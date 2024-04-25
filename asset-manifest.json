@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/Test-task-campers/static/css/main.69776c33.css",
+    "main.js": "/Test-task-campers/static/js/main.2bf17006.js",
+    "static/media/ac.svg": "/Test-task-campers/static/media/ac.ee8d328ce0b21c1b26dd71ede89e44c1.svg",
+    "static/media/alcove.svg": "/Test-task-campers/static/media/alcove.9cb99d2b12676fcc15cef789958a9770.svg",
+    "static/media/van.svg": "/Test-task-campers/static/media/van.aa825a0616557ab4a8f3a18b9e8c4de4.svg",
+    "static/media/integrated.svg": "/Test-task-campers/static/media/integrated.df130a79d84814ca407663da96f52d2b.svg",
+    "static/media/toilet.svg": "/Test-task-campers/static/media/toilet.ac77761601bb432278c568a1ff4fb7be.svg",
+    "static/media/users.svg": "/Test-task-campers/static/media/users.4f4417c06803e8be443346690dcd4f4b.svg",
+    "static/media/fuel.svg": "/Test-task-campers/static/media/fuel.b955f2d3e116822abd2a00bb5d91c52a.svg",
+    "static/media/freeze.svg": "/Test-task-campers/static/media/freeze.4b78ee75ea3fe2b5942b15ffc4641f36.svg",
+    "static/media/radio.svg": "/Test-task-campers/static/media/radio.17683189811d581122426cba38e2d5b0.svg",
+    "static/media/gas.svg": "/Test-task-campers/static/media/gas.69d05de5c12483e6db0eae52af28bee4.svg",
+    "static/media/transmition.svg": "/Test-task-campers/static/media/transmition.b4a07e28a8feca09b45b431198b3ff90.svg",
+    "static/media/air.svg": "/Test-task-campers/static/media/air.70c716e16670dc3719fe43d5bfddff03.svg",
+    "static/media/bad.svg": "/Test-task-campers/static/media/bad.c8300f838a7e4353d5359e1dbd95e56f.svg",
+    "static/media/hob.svg": "/Test-task-campers/static/media/hob.fdfafe8faab47407be6a8e685d8987ab.svg",
+    "static/media/wave.svg": "/Test-task-campers/static/media/wave.9e545fce20499a2bd1edd2be1e4b2523.svg",
+    "static/media/heart.svg": "/Test-task-campers/static/media/heart.7952b4fc0d296bee90f7f69bcd5f7658.svg",
+    "index.html": "/Test-task-campers/index.html",
+    "static/media/water.svg": "/Test-task-campers/static/media/water.649ccc3d473c87ae5c8a3a479df39b57.svg",
+    "static/media/map-pin.svg": "/Test-task-campers/static/media/map-pin.16b230efebd824a26e5558d49e3d3bfc.svg",
+    "static/media/cd.svg": "/Test-task-campers/static/media/cd.db1e4c3317c6d3212090407313f51f55.svg",
+    "static/media/tv.svg": "/Test-task-campers/static/media/tv.f0520bf3f91bdbf212fcd30d65725d9a.svg",
+    "static/media/shower.svg": "/Test-task-campers/static/media/shower.05af8c6bc3a293e1726fee6965f15268.svg",
+    "static/media/rate.svg": "/Test-task-campers/static/media/rate.c1d549c32ae17271c66ad10e4c8274b8.svg",
+    "static/media/eat.svg": "/Test-task-campers/static/media/eat.afe6130490e04e1ebb0a3c725651ff4c.svg",
+    "static/media/close.svg": "/Test-task-campers/static/media/close.25dc3f46a342a188874fa545ced03ca2.svg",
+    "main.69776c33.css.map": "/Test-task-campers/static/css/main.69776c33.css.map",
+    "main.2bf17006.js.map": "/Test-task-campers/static/js/main.2bf17006.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69776c33.css",
+    "static/js/main.2bf17006.js"
+  ]
+}
