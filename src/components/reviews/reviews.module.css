@@ -1,0 +1,44 @@
+.avatar {
+  border-radius: 60px;
+  width: 60px;
+  height: 60px;
+  background-color: #f2f4f7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 24px;
+  color: #e44848;
+}
+.main_section {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.review_section {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+.review_item {
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.name_text {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 18px;
+  color: #101828;
+  margin-bottom: 4px;
+}
+.comment_text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #475467;
+  margin-bottom: 4px;
+  max-width: 430px;
+  line-height: 24px;
+}

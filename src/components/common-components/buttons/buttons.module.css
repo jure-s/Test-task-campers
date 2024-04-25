@@ -1,0 +1,15 @@
+.buttons {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 200px;
+  padding: 16px 40px;
+  background-color: #e44848;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s linear;
+}
+.buttons:hover {
+  background-color: #c20a0a;
+}

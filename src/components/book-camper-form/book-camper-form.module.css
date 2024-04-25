@@ -1,0 +1,46 @@
+.form_book {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.title {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+
+  color: #101828;
+}
+.description {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #475467;
+  margin: 12px 0px 24px 0px;
+}
+.form_book input,
+.form_book textarea {
+  background: #10182814;
+  border-radius: 10px;
+  padding: 18px;
+  border: none;
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: rgba(16, 24, 40, 0.6);
+}
+
+.submitSave > input[type="submit"] {
+  display: none;
+}
+.form_send_section {
+  border: 1px solid rgba(16, 24, 40, 0.2);
+  border-radius: 10px;
+  padding: 24px;
+  max-width: 380px;
+}
+.validation_text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 14px;
+  color: red;
+}

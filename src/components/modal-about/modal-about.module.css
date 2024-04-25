@@ -1,0 +1,20 @@
+.modal_container {
+  border-radius: 20px;
+  padding: 40px;
+  background-color: white;
+  overflow-y: scroll;
+  height: calc(100vh - 101.5px);
+}
+.img_modal {
+  object-fit: cover;
+}
+.gallery_section {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.tab_section {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 44px;
+}

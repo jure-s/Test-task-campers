@@ -1,0 +1,51 @@
+.vehicle_type {
+  border: 1px solid rgba(16, 24, 40, 0.2);
+  border-radius: 10px;
+  padding: 17px 30px;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #101828;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.vehicle_type.active {
+  border: 1px solid #e44848;
+}
+.vehicle_type.focused {
+  border: 1px solid black;
+}
+.vehicle_type:hover {
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.2);
+}
+.vehicle_type_section > ul {
+  display: flex;
+  gap: 10px;
+  max-width: 420px;
+  flex-wrap: wrap;
+}
+.title {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 20px;
+  color: #101828;
+  margin-top: 32px;
+}
+.filter_text {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475467;
+  margin: 24px 0px;
+}
+.filters > input {
+  border-radius: 10px;
+  padding: 18px 218px 18px 18px;
+  background-color: #f7f7f7;
+  border: none;
+  outline: none;
+}
+.filters {
+  padding: 0px 48px;
+}

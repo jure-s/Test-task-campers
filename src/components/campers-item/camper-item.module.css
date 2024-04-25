@@ -1,0 +1,136 @@
+.camper_item {
+  border: 1px solid rgba(16, 24, 40, 0.2);
+  border-radius: 20px;
+  padding: 24px;
+  display: flex;
+  align-items: center;
+  max-width: 880px;
+  gap: 24px;
+}
+.img_side > img {
+  border-radius: 10px;
+  object-fit: cover;
+}
+.about_side {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 100%;
+  justify-content: space-between;
+}
+.title {
+  font-family: Inter;
+  font-weight: 600;
+  font-size: 24px;
+  color: #101828;
+  margin-bottom: 8px;
+}
+.title_about {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 24px;
+}
+.rating_text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: underline;
+  color: #101828;
+}
+.description_text {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #475467;
+  max-width: 100%;
+  text-wrap: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+.details_item {
+  display: flex;
+  border-radius: 100px;
+  padding: 12px 18px;
+  background: #f2f4f7;
+  align-items: center;
+  gap: 8px;
+}
+.details_item_text {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  text-align: center;
+  color: #101828;
+}
+.details_section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.favorite_icon {
+  fill: red;
+}
+.pagination_button {
+  border: 1px solid rgba(71, 84, 103, 0.2);
+  border-radius: 200px;
+  padding: 16px 32px;
+  background-color: white;
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 16px;
+  color: #101828;
+  cursor: pointer;
+}
+.empty_section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.empty_section > p {
+  font-family: Inter;
+  font-weight: 400;
+  font-size: 16px;
+  color: #475467;
+  margin-bottom: 24px;
+}
+.camper_items_section {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  align-items: center;
+}
+
+.page_catalog {
+  display: flex;
+  margin-top: 60px;
+}
+@media (max-width: 1499px) {
+  .description_text {
+    width: 443px;
+  }
+}
+@media (max-width: 1300px) {
+  .description_text {
+    width: 350px;
+  }
+}
+@media (max-width: 1200px) {
+  .description_text {
+    width: 260px;
+  }
+  .page_catalog {
+    flex-wrap: wrap;
+  }
+}
