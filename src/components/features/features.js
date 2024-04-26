@@ -52,24 +52,20 @@ const Features = ({ data }) => {
     engine: { img: fuelIcon, text: `${data?.engine}` },
   };
 
-  const checkAllFeatures = () => {
+ const checkAllFeatures = () => {
     const arrayFeatures = [];
-
+  
     for (let key in data) {
-      // этот код будет вызван для каждого свойства объекта
-      // ..и выведет имя свойства и его значение
-
-      if (data && details?.hasOwnProperty(key))
+      if (data && key in details) {
         arrayFeatures.push(details[key]);
+      }
     }
     for (let key in data?.details) {
-      // этот код будет вызван для каждого свойства объекта
-      // ..и выведет имя свойства и его значение
-
-      if (data?.details[key] && details?.hasOwnProperty(key))
+      if (data?.details[key] && key in details) {
         arrayFeatures.push(details[key]);
+      }
     }
-
+  
     return arrayFeatures;
   };
 
