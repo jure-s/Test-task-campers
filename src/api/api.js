@@ -5,6 +5,6 @@ export const getAllCampers = async (url) => {
     const response = await axios.get(url);
     return response?.data;
   } catch (error) {
-    //handle error
+    console.error(error);
   }
 };

@@ -8,11 +8,7 @@ import {
   updateVehicleEquipment,
   updateVehicleType,
 } from "../../features/filters/filters";
-import {
-  objEquipment,
-  vehicleEquipment,
-  vehicleType,
-} from "../../constant/constant";
+import { objEquipment } from "../../constant/constant";
 import { RenderVehicleEquip, RenderVehicleType } from "./render-items-filter";
 
 const Filters = () => {
