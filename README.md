@@ -114,4 +114,4 @@
 
 ###
 
-![Modal window](./src/assets/images/modal_window.jpgg)
+![Modal window](./src/assets/images/modal_window.jpg)
